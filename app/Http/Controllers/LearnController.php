@@ -17,4 +17,9 @@ class LearnController extends Controller
     {
         return view('learn.greet');
     }
+
+    public function search()
+    {
+        return view('learn.search');
+    }
 }
